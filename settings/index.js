@@ -11,20 +11,14 @@ class Tags extends React.Component {
 
   constructor(props) {
     super(props);
-
     const formatMsg = this.props.stripes.intl.formatMessage;
 
-    this.sections = [
+    this.pages = [
       {
+        route: 'general',
         label: formatMsg({ id: 'ui-tags.settings.general.label' }),
-        pages: [
-          {
-            route: 'tags',
-            label: formatMsg({ id: 'ui-tags.settings.tags.label' }),
-            component: TagSettings,
-          },
-        ],
-      },
+        component: TagSettings,
+      }
     ];
   }
 

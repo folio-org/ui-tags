@@ -40,7 +40,7 @@ class TagSettings extends React.Component {
               component={Checkbox}
               id="tags_enabled"
               name="tags_enabled"
-              label={this.props.stripes.intl.formatMessage({ id: 'ui-tags.settings.tagsLabel' })}
+              label={this.props.stripes.intl.formatMessage({ id: 'ui-tags.settings.enableTags' })}
             />
           </Col>
         </Row>

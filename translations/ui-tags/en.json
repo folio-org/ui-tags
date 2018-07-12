@@ -1,4 +1,7 @@
 {
   "meta.title": "Tags",
-  "settings.index.paneTitle": "Tags"
+  "settings.index.paneTitle": "Tags",
+  "settings.tags.label": "Tags",
+  "settings.general.label": "General",
+  "settings.enableTags": "Enable tags"
 }
