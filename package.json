@@ -25,10 +25,13 @@
       }
     ],
     "okapiInterfaces": {
-
+      "tags": "1.0"
     },
     "permissionSets": [
-
+      {
+        "permissionName": "module.tags.enabled",
+        "displayName": "UI: Tags module is enabled"
+      }
     ]
   },
   "scripts": {
