@@ -35,7 +35,7 @@
     ]
   },
   "scripts": {
-    "lint": "eslint **/*.js --ignore-pattern node_modules/",
+    "lint": "eslint *.js settings",
     "test": "echo 'placeholder. no tests implemented'"
   },
   "devDependencies": {
