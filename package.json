@@ -1,0 +1,67 @@
+{
+  "name": "@folio/tags",
+  "version": "1.0.0",
+  "description": "Tags manager",
+  "repository": "folio-org/ui-tags",
+  "publishConfig": {
+    "registry": "https://repository.folio.org/repository/npm-folio/"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "main": "index.js",
+  "stripes": {
+    "type": "settings",
+    "displayName": "ui-tags.meta.title",
+    "route": "/tags",
+    "hasSettings": true,
+    "queryResource": "query",
+    "icons": [
+      {
+        "name": "app",
+        "alt": "Create and manage tags",
+        "title": "tags"
+      }
+    ],
+    "okapiInterfaces": {
+
+    },
+    "permissionSets": [
+
+    ]
+  },
+  "scripts": {
+    "lint": "eslint **/*.js --ignore-pattern node_modules/",
+    "test": "echo 'placeholder. no tests implemented'"
+  },
+  "devDependencies": {
+    "@folio/eslint-config-stripes": "^1.1.0",
+    "babel-core": "^6.17.0",
+    "babel-eslint": "^7.0.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "eslint": "^4.8.0"
+  },
+  "dependencies": {
+    "@folio/stripes-components": "^2.1.5",
+    "@folio/stripes-core": "^2.8.0",
+    "@folio/stripes-form": "^0.8.0",
+    "@folio/stripes-smart-components": "^1.4.19",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.5.10",
+    "query-string": "^4.3.2",
+    "react-flexbox-grid": "^1.1.3",
+    "react-intl": "^2.4.0",
+    "react-router-dom": "^4.0.0",
+    "redux-form": "^7.0.3"
+  },
+  "peerDependencies": {
+    "@folio/stripes-connect": "^3.1.0",
+    "@folio/stripes-core": "^2.10.0",
+    "react": "*"
+  }
+}
