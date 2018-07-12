@@ -2,6 +2,7 @@ import React from 'react';
 import Settings from '@folio/stripes-components/lib/Settings';
 import { stripesShape } from '@folio/stripes-core/src/Stripes';
 
+import TagSettings from './TagSettings';
 
 class Tags extends React.Component {
   static propTypes = {
@@ -10,10 +11,17 @@ class Tags extends React.Component {
 
   constructor(props) {
     super(props);
-    this.pages = [
+    const formatMsg = this.props.stripes.intl.formatMessage;
 
+    this.pages = [
+      {
+        route: 'general',
+        label: formatMsg({ id: 'ui-tags.settings.general.label' }),
+        component: TagSettings,
+      }
     ];
   }
+
   render() {
     return (
       <Settings
