@@ -31,6 +31,14 @@
       {
         "permissionName": "module.tags.enabled",
         "displayName": "UI: Tags module is enabled"
+      },
+      {
+        "permissionName": "settings.tags.enabled",
+        "displayName": "Settings (Tags): display list of settings pages",
+        "subPermissions": [
+          "settings.enabled"
+        ],
+        "visible": true
       }
     ]
   },
