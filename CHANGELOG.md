@@ -1,5 +1,7 @@
 # Change history for ui-tags
 
-## 1.0.0 (IN PROGRESS)
+
+## [1.0.0](https://github.com/folio-org/ui-tags/tree/v1.0.0) (2018-09-10)
+[Full Changelog](https://github.com/folio-org/ui-tags/compare/v1.0.0...v1.0.0)
 
 * Add ability to enable tags app. Fixes FOLIO-1302.
