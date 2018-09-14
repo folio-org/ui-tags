@@ -56,7 +56,7 @@
   "dependencies": {
     "@folio/stripes-components": "^3.0.10",
     "@folio/stripes-core": "^2.11.0",
-    "@folio/stripes-form": "^0.8.2",
+    "@folio/stripes-form": "^0.9.0",
     "@folio/stripes-smart-components": "^1.6.0",
     "isomorphic-fetch": "^2.2.1",
     "lodash": "^4.17.4",
