@@ -1,5 +1,9 @@
 # Change history for ui-tags
 
+## 1.0.4 (IN PROGRESS)
+
+* stripes-core should be a peerDependency. Refs STRIPES-557.
+
 ## [1.0.3](https://github.com/folio-org/ui-tags/tree/v1.0.3) (2018-09-14)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v1.0.2...v1.0.3)
 
