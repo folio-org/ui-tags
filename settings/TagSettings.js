@@ -1,10 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
-import { Row, Col } from '@folio/stripes-components/lib/LayoutGrid';
-import Checkbox from '@folio/stripes-components/lib/Checkbox';
 import { Field } from 'redux-form';
-import ConfigManager from '@folio/stripes-smart-components/lib/ConfigManager';
+import { Checkbox, Col, Row } from '@folio/stripes/components';
+import { ConfigManager } from '@folio/stripes/smart-components';
 
 class TagSettings extends React.Component {
   static propTypes = {
