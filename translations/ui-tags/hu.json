@@ -1,7 +1,7 @@
 {
     "meta.title": "Címkék",
     "settings.index.paneTitle": "Címkék",
-    "settings.tags.label": "Tags",
-    "settings.general.label": "General",
-    "settings.enableTags": "Enable tags"
+    "settings.tags.label": "Címkék",
+    "settings.general.label": "Általános",
+    "settings.enableTags": "Címkék engedélyezése"
 }
