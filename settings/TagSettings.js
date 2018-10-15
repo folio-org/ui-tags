@@ -20,7 +20,7 @@ class TagSettings extends React.Component {
 
   // eslint-disable-next-line class-methods-use-this
   getInitialValues(settings) {
-    const value = settings.length && settings[0].value === 'true';
+    const value = !settings.length || settings[0].value === 'true';
     return { tags_enabled: value };
   }
 
