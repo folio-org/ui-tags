@@ -1,5 +1,9 @@
 # Change history for ui-tags
 
+## 1.2.0 (IN PROGESS)
+
+* Enable tags by default. Part of UITAG-8.
+
 ## [1.1.0](https://github.com/folio-org/ui-tags/tree/v1.1.0) (2018-10-03)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v1.0.2...v1.1.0)
 
