@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { FormattedMessage } from 'react-intl';
 import { Field } from 'redux-form';
 import { Checkbox, Col, Row } from '@folio/stripes/components';
 import { ConfigManager } from '@folio/stripes/smart-components';
@@ -9,7 +10,6 @@ class TagSettings extends React.Component {
     label: PropTypes.string,
     stripes: PropTypes.shape({
       connect: PropTypes.func.isRequired,
-      intl: PropTypes.object.isRequired,
     }).isRequired,
   };
 
@@ -38,7 +38,7 @@ class TagSettings extends React.Component {
               component={Checkbox}
               id="tags_enabled"
               name="tags_enabled"
-              label={this.props.stripes.intl.formatMessage({ id: 'ui-tags.settings.enableTags' })}
+              label={<FormattedMessage id="ui-tags.settings.enableTags" />}
             />
           </Col>
         </Row>

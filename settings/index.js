@@ -1,22 +1,17 @@
 import React from 'react';
+import { FormattedMessage } from 'react-intl';
 import { Settings } from '@folio/stripes/smart-components';
-import { stripesShape } from '@folio/stripes/core';
 
 import TagSettings from './TagSettings';
 
-class Tags extends React.Component {
-  static propTypes = {
-    stripes: stripesShape.isRequired,
-  }
-
+export default class Tags extends React.Component {
   constructor(props) {
     super(props);
-    const formatMsg = this.props.stripes.intl.formatMessage;
 
     this.pages = [
       {
         route: 'general',
-        label: formatMsg({ id: 'ui-tags.settings.general.label' }),
+        label: <FormattedMessage id="ui-tags.settings.general.label" />,
         component: TagSettings,
       }
     ];
@@ -27,10 +22,8 @@ class Tags extends React.Component {
       <Settings
         {...this.props}
         pages={this.pages}
-        paneTitle={this.props.stripes.intl.formatMessage({ id: 'ui-tags.settings.index.paneTitle' })}
+        paneTitle={<FormattedMessage id="ui-tags.settings.index.paneTitle" />}
       />
     );
   }
 }
-
-export default Tags;
