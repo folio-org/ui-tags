@@ -1,7 +1,7 @@
 {
-    "meta.title": "Tags",
-    "settings.index.paneTitle": "Tags",
-    "settings.tags.label": "Tags",
-    "settings.general.label": "General",
-    "settings.enableTags": "Enable tags"
+    "meta.title": "الوسوم",
+    "settings.index.paneTitle": "الوسوم",
+    "settings.tags.label": "الوسوم",
+    "settings.general.label": "عام",
+    "settings.enableTags": "تفعيل الوسوم"
 }
