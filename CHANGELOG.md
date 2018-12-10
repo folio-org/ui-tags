@@ -1,8 +1,11 @@
 # Change history for ui-tags
 
-## 1.2.0 (IN PROGESS)
+## [1.2.0](https://github.com/folio-org/ui-tags/tree/v1.2.0) (2018-12-10)
+[Full Changelog](https://github.com/folio-org/ui-tags/compare/v1.1.0...v1.2.0)
 
 * Enable tags by default. Part of UITAG-8.
+* Update translation strings
+* Replace stripes.intl with FormattedMessage
 
 ## [1.1.0](https://github.com/folio-org/ui-tags/tree/v1.1.0) (2018-10-03)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v1.0.2...v1.1.0)
