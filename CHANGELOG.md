@@ -1,5 +1,9 @@
 # Change history for ui-tags
 
+## 1.3.0 (IN PROGRESS)
+
+* Upgrade to stripes v2.0.0.
+
 ## [1.2.0](https://github.com/folio-org/ui-tags/tree/v1.2.0) (2018-12-10)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v1.1.0...v1.2.0)
 
