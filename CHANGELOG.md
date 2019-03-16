@@ -1,5 +1,10 @@
 # Change history for ui-tags
 
+## [1.3.1](https://github.com/folio-org/ui-tags/tree/v1.3.1) (2019-03-15)
+[Full Changelog](https://github.com/folio-org/ui-tags/compare/v1.3.0...v1.3.1)
+
+* Update translation strings.
+
 ## [1.3.0](https://github.com/folio-org/ui-tags/tree/v1.3.0) (2019-01-25)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v1.2.0...v1.3.0)
 
