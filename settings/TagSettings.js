@@ -36,6 +36,7 @@ class TagSettings extends React.Component {
           <Col xs={12}>
             <Field
               component={Checkbox}
+              type="checkbox"
               id="tags_enabled"
               name="tags_enabled"
               label={<FormattedMessage id="ui-tags.settings.enableTags" />}
