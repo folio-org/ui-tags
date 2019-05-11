@@ -1,5 +1,11 @@
 # Change history for ui-tags
 
+## [1.3.2](https://github.com/folio-org/ui-tags/tree/v1.3.2) (2019-05-10)
+[Full Changelog](https://github.com/folio-org/ui-tags/compare/v1.3.0...v1.3.1)
+
+* Correctly initialize `<Checkbox>` elements. Refs ERM-173
+* Update translation strings.
+
 ## [1.3.1](https://github.com/folio-org/ui-tags/tree/v1.3.1) (2019-03-15)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v1.3.0...v1.3.1)
 
