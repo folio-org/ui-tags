@@ -1,7 +1,7 @@
 {
-    "meta.title": "Tags",
-    "settings.index.paneTitle": "Tags",
-    "settings.tags.label": "Tags",
+    "meta.title": "Mots-clés",
+    "settings.index.paneTitle": "Mots-clés",
+    "settings.tags.label": "Mots-clés",
     "settings.general.label": "General",
-    "settings.enableTags": "Enable tags"
+    "settings.enableTags": "Activer les mots-clés"
 }
