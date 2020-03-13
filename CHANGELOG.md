@@ -1,6 +1,7 @@
 # Change history for ui-tags
 
-## [1.4.0](IN PROGRESS)
+## [2.0.0](https://github.com/folio-org/ui-tags/tree/v2.0.0) (2020-03-12)
+[Full Changelog](https://github.com/folio-org/ui-tags/compare/v1.3.3...v2.0.0)
 
 * Update eslint to v6.2.1. Refs UITAG-26
 * Update `@folio/stripes` to `v3.0.0`.
