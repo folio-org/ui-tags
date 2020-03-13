@@ -4,6 +4,7 @@
 
 * Update eslint to v6.2.1. Refs UITAG-26
 * Update `@folio/stripes` to `v3.0.0`.
+* Migrate from `stripes.type` to `stripes.actsAs`
 
 ## [1.3.3](https://github.com/folio-org/ui-tags/tree/v1.3.3) (2019-12-04)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v1.3.2...v1.3.3)

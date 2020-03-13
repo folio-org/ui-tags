@@ -12,7 +12,7 @@
   },
   "main": "index.js",
   "stripes": {
-    "type": "settings",
+    "actsAs": ["settings"],
     "displayName": "ui-tags.meta.title",
     "route": "/tags",
     "hasSettings": true,
