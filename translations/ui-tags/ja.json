@@ -1,7 +1,7 @@
 {
     "meta.title": "タグ",
-    "settings.index.paneTitle": "Tags",
-    "settings.tags.label": "Tags",
+    "settings.index.paneTitle": "タグ",
+    "settings.tags.label": "タグ",
     "settings.general.label": "General",
     "settings.enableTags": "Enable tags"
 }
