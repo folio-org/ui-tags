@@ -1,6 +1,7 @@
 # Change history for ui-tags
 
-## 3.0.0 (IN PROGRESS)
+## [3.0.0](https://github.com/folio-org/ui-tags/tree/v3.0.0) (2020-06-10)
+[Full Changelog](https://github.com/folio-org/ui-tags/compare/v2.0.0...v3.0.0)
 
 * Update `react-intl` to `^4.5` and move to a peer. Refs STRIPES-672.
 * Update `@folio/stripes` to `v4.0.0`.
