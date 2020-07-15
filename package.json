@@ -33,6 +33,54 @@
           "settings.enabled"
         ],
         "visible": true
+      },
+      {
+        "permissionName": "ui-tags.all",
+        "subPermissions": [
+          "module.tags.enabled",
+          "ui-tags.view",
+          "ui-tags.create",
+          "ui-tags.edit",
+          "ui-tags.delete"
+        ],
+        "visible": true
+      },
+      {
+        "permissionName": "ui-tags.view",
+        "subPermissions": [
+          "module.tags.enabled",
+          "tags.collection.get"
+        ],
+        "visible": true
+      },
+      {
+        "permissionName": "ui-tags.create",
+        "subPermissions": [
+          "module.tags.enabled",
+          "tags.collection.get",
+          "tags.item.post"
+        ],
+        "visible": false
+      },
+      {
+        "permissionName": "ui-tags.edit",
+        "subPermissions": [
+          "module.tags.enabled",
+          "tags.collection.get",
+          "tags.item.get",
+          "tags.item.put"
+        ],
+        "visible": false
+      },
+      {
+        "permissionName": "ui-tags.delete",
+        "subPermissions": [
+          "module.tags.enabled",
+          "tags.collection.get",
+          "tags.item.get",
+          "tags.item.delete"
+        ],
+        "visible": false
       }
     ]
   },
