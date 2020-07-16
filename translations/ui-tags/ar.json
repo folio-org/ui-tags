@@ -3,5 +3,10 @@
     "settings.index.paneTitle": "الوسوم",
     "settings.tags.label": "الوسوم",
     "settings.general.label": "عام",
-    "settings.enableTags": "تفعيل الوسوم"
+    "settings.enableTags": "تفعيل الوسوم",
+    "permission.all": "الوسوم: كل الصلاحيات",
+    "permission.view": "وسوم على التسجيلات: اعرض فقط",
+    "permission.create": "الوسوم: أنشئ وسوم",
+    "permission.edit": "الوسوم: حرّر الوسوم",
+    "permission.delete": "الوسوم: احذف الوسوم"
 }
