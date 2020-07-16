@@ -3,5 +3,10 @@
     "settings.index.paneTitle": "Tags",
     "settings.tags.label": "Tags",
     "settings.general.label": "Geral",
-    "settings.enableTags": "Habilitar tags"
+    "settings.enableTags": "Habilitar tags",
+    "permission.all": "Tags: Todas as permissões",
+    "permission.view": "Tags nos registros: somente visualização",
+    "permission.create": "Tags: Criar tags",
+    "permission.edit": "Tags: Editar tags",
+    "permission.delete": "Etiquetas: Eliminar etiquetas"
 }

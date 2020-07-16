@@ -3,5 +3,10 @@
     "settings.index.paneTitle": "Etiquetas",
     "settings.tags.label": "Etiquetas",
     "settings.general.label": "General",
-    "settings.enableTags": "Permitir etiquetas"
+    "settings.enableTags": "Permitir etiquetas",
+    "permission.all": "Tags: All permissions",
+    "permission.view": "Tags on records: View only",
+    "permission.create": "Tags: Create tags",
+    "permission.edit": "Tags: Edit tags",
+    "permission.delete": "Tags: Delete tags"
 }

@@ -3,5 +3,10 @@
     "settings.index.paneTitle": "Mots-clés",
     "settings.tags.label": "Mots-clés",
     "settings.general.label": "Général",
-    "settings.enableTags": "Activer les mots-clés"
+    "settings.enableTags": "Activer les mots-clés",
+    "permission.all": "Tags: toutes les autorisations",
+    "permission.view": "Tags sur les enregistrements: Afficher uniquement",
+    "permission.create": "Tags: créer des tags",
+    "permission.edit": "Tags: Modifier les tags",
+    "permission.delete": "Tags: supprimer les tags"
 }
