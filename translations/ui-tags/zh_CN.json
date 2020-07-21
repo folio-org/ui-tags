@@ -4,9 +4,9 @@
     "settings.tags.label": "标签",
     "settings.general.label": "通用",
     "settings.enableTags": "启用标签",
-    "permission.all": "Tags: All permissions",
-    "permission.view": "Tags on records: View only",
-    "permission.create": "Tags: Create tags",
-    "permission.edit": "Tags: Edit tags",
-    "permission.delete": "Tags: Delete tags"
+    "permission.all": "标签：所有权限",
+    "permission.view": "记录标签：仅查看",
+    "permission.create": "标签：创建标签",
+    "permission.edit": "标签：编辑标签",
+    "permission.delete": "标签：删除标签"
 }
