@@ -90,9 +90,9 @@
     "test": "echo 'placeholder. no tests implemented'"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^5.0.0",
-    "@folio/stripes": "^4.0.0",
-    "@folio/stripes-cli": "^1.4.0",
+    "@folio/eslint-config-stripes": "^5.2.0",
+    "@folio/stripes": "^5.0.0",
+    "@folio/stripes-cli": "^1.18.0",
     "babel-eslint": "^9.0.0",
     "eslint": "^6.2.1",
     "react": "^16.5.0",
@@ -106,7 +106,7 @@
     "redux-form": "^7.0.3"
   },
   "peerDependencies": {
-    "@folio/stripes": "^4.0.0",
+    "@folio/stripes": "^5.0.0",
     "react": "*",
     "react-intl": "^4.5.3"
   }

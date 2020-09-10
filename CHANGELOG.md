@@ -3,6 +3,7 @@
 ## 3.1.0 (IN PROGRESS)
 
 * Provide visible permission sets for managing and view tags. Refs UITAG-29, UITAG-10.
+* Update `@folio/stripes` to `v5`. Refs UITAG-32.
 
 ## [3.0.0](https://github.com/folio-org/ui-tags/tree/v3.0.0) (2020-06-10)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v2.0.0...v3.0.0)
