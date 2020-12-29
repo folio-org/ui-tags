@@ -38,6 +38,14 @@
         "subPermissions": [
           "settings.enabled"
         ],
+        "visible": false
+      },
+      {
+        "permissionName": "ui-tags.settings",
+        "displayName": "Settings (Tags): Can enable or disable tags for all apps",
+        "subPermissions": [
+          "settings.tags.enabled"
+        ],
         "visible": true
       },
       {
