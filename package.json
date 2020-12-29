@@ -17,7 +17,13 @@
     "route": "/tags",
     "hasSettings": true,
     "queryResource": "query",
-    "icons": [],
+    "icons": [
+      {
+        "name": "app",
+        "alt": "",
+        "title": "Tags"
+      }
+    ],
     "okapiInterfaces": {
       "tags": "1.0"
     },

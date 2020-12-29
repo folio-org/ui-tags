@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon Artboard</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="97.0714415%" id="linearGradient-1">
+            <stop stop-color="#E9E9E9" offset="0%"></stop>
+            <stop stop-color="#D7DADD" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Icon-Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BG" fill="url(#linearGradient-1)">
+            <rect x="0" y="0" width="1024" height="1024"></rect>
+        </g>
+        <path d="M504.311848,263.55633 L769,264 L769.417976,513.651378 L422.989062,850.998183 L174.5,600.5 L504.311848,263.55633 Z M553.099078,329.317716 L275.5,602.5 L415.224572,743.350807 L702.171728,469.93752 L702,329.5 L553.099078,329.317716 Z M607,468 C634.061953,468 656,446.061953 656,419 C656,391.938047 634.061953,370 607,370 C579.938047,370 558,391.938047 558,419 C558,446.061953 579.938047,468 607,468 Z" id="tags-14x14" fill="#666666" fill-rule="nonzero"></path>
+    </g>
+</svg>

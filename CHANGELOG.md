@@ -1,5 +1,7 @@
 # Change history for ui-tags
 
+* Add Tags icon to the Settings list. Refs UITAG-41.
+
 ## [4.0.0](https://github.com/folio-org/ui-tags/tree/v4.0.0) (2020-10-12)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v3.0.0...v4.0.0)
 
