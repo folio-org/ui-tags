@@ -8,5 +8,6 @@
     "permission.view": "Tags in Datensätzen: nur anzeigen",
     "permission.create": "Tags: Tags erstellen",
     "permission.edit": "Tags: Tags bearbeiten",
-    "permission.delete": "Tags: Tags löschen"
+    "permission.delete": "Tags: Tags löschen",
+    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
 }

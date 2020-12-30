@@ -1,6 +1,6 @@
 {
-    "meta.title": "Tags",
-    "settings.index.paneTitle": "Tags",
+    "meta.title": "Etykiety",
+    "settings.index.paneTitle": "Etykiety",
     "settings.tags.label": "Tags",
     "settings.general.label": "General",
     "settings.enableTags": "Enable tags",
@@ -8,5 +8,6 @@
     "permission.view": "Tags on records: View only",
     "permission.create": "Tags: Create tags",
     "permission.edit": "Tags: Edit tags",
-    "permission.delete": "Tags: Delete tags"
+    "permission.delete": "Tags: Delete tags",
+    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
 }

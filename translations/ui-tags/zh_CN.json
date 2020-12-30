@@ -8,5 +8,6 @@
     "permission.view": "记录标签：仅查看",
     "permission.create": "标签：创建标签",
     "permission.edit": "标签：编辑标签",
-    "permission.delete": "标签：删除标签"
+    "permission.delete": "标签：删除标签",
+    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
 }

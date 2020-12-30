@@ -8,5 +8,6 @@
     "permission.view": "وسوم على التسجيلات: اعرض فقط",
     "permission.create": "الوسوم: أنشئ وسوم",
     "permission.edit": "الوسوم: حرّر الوسوم",
-    "permission.delete": "الوسوم: احذف الوسوم"
+    "permission.delete": "الوسوم: احذف الوسوم",
+    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
 }
