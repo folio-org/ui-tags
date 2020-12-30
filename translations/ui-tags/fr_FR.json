@@ -8,5 +8,6 @@
     "permission.view": "Tags sur les enregistrements: Afficher uniquement",
     "permission.create": "Tags: créer des tags",
     "permission.edit": "Tags: Modifier les tags",
-    "permission.delete": "Tags: supprimer les tags"
+    "permission.delete": "Tags: supprimer les tags",
+    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
 }

@@ -8,5 +8,6 @@
     "permission.view": "레코드의 태그 :보기 전용",
     "permission.create": "태그 : 태그 만들기",
     "permission.edit": "태그 : 태그 편집",
-    "permission.delete": "태그 : 태그 삭제"
+    "permission.delete": "태그 : 태그 삭제",
+    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
 }

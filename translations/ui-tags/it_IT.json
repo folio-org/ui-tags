@@ -8,5 +8,6 @@
     "permission.view": "Tag nei record: solo visualizzazione",
     "permission.create": "Tag: Creare tag",
     "permission.edit": "Tag: modifica i tag",
-    "permission.delete": "Tag: Eliminare i tag"
+    "permission.delete": "Tag: Eliminare i tag",
+    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
 }
