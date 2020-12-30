@@ -1,9 +1,9 @@
 {
-    "meta.title": "Tags",
-    "settings.index.paneTitle": "Tags",
-    "settings.tags.label": "Tags",
+    "meta.title": "Etiquetas",
+    "settings.index.paneTitle": "Etiquetas",
+    "settings.tags.label": "Etiquetas",
     "settings.general.label": "General",
-    "settings.enableTags": "Enable tags",
+    "settings.enableTags": "Habilitar etiquetas",
     "permission.all": "Tags: All permissions",
     "permission.view": "Tags on records: View only",
     "permission.create": "Tags: Create tags",
