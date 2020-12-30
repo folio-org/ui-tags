@@ -9,5 +9,5 @@
     "permission.create": "الوسوم: أنشئ وسوم",
     "permission.edit": "الوسوم: حرّر الوسوم",
     "permission.delete": "الوسوم: احذف الوسوم",
-    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
+    "permission.settings": "الإعدادات (الوسوم): إمكانية تفعيل أو تعطيل الوسوم لكل التطبيقات"
 }
