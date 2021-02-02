@@ -9,5 +9,5 @@
     "permission.create": "标签：创建标签",
     "permission.edit": "标签：编辑标签",
     "permission.delete": "标签：删除标签",
-    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
+    "permission.settings": "设置（标签）：可以为所有应用启用或禁用标签"
 }
