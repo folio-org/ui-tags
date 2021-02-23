@@ -1,13 +1,13 @@
 {
     "meta.title": "Etykiety",
     "settings.index.paneTitle": "Etykiety",
-    "settings.tags.label": "Tags",
-    "settings.general.label": "General",
-    "settings.enableTags": "Enable tags",
-    "permission.all": "Tags: All permissions",
-    "permission.view": "Tags on records: View only",
-    "permission.create": "Tags: Create tags",
-    "permission.edit": "Tags: Edit tags",
-    "permission.delete": "Tags: Delete tags",
-    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
+    "settings.tags.label": "Etykiety",
+    "settings.general.label": "Ogólne",
+    "settings.enableTags": "Włączanie etykiet",
+    "permission.all": "Etykiety: wszystkie uprawnienia",
+    "permission.view": "Etykiety w rekordach: Tylko wyświetlanie",
+    "permission.create": "Etykiety: Tworzenie etykiet",
+    "permission.edit": "Etykiety: Edycja etykiet",
+    "permission.delete": "Etykiety: Usuwanie etykiet",
+    "permission.settings": "Ustawienia (Etykiety): Może odblokować lub zablokować etykiety dla wszystkich aplikacji"
 }
