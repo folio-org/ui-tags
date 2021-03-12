@@ -1,10 +1,14 @@
 # Change history for ui-tags
 
-## 5.0.0 (IN PROGRESS)
+## [5.0.0](https://github.com/folio-org/ui-tags/tree/v5.0.0) (2021-03-12)
+[Full Changelog](https://github.com/folio-org/ui-tags/compare/v4.0.0...v5.0.0)
 
+* Add personal data disclosure document. Refs UITAG-39.
 * Update permission name for Tags settings. Refs UITAG-40.
 * Add Tags icon to the Settings list. Refs UITAG-41.
 * Increment `react-redux` to `v7`, `redux-form` to `v8`, `@folio/stripes` to `v6`. Refs UITAG-42.
+* Configure Jenkins root sonarscan directory. Refs FOLIO-2920.
+* Update stripes-cli to V2. Refs UITAG-43.
 
 ## [4.0.0](https://github.com/folio-org/ui-tags/tree/v4.0.0) (2020-10-12)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v3.0.0...v4.0.0)
