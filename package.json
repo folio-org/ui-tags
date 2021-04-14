@@ -103,12 +103,14 @@
   "scripts": {
     "start": "yarn stripes serve",
     "lint": "eslint .",
+    "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-tags ./translations/ui-tags/compiled",
     "test": "echo 'placeholder. no tests implemented'"
   },
   "devDependencies": {
     "@folio/eslint-config-stripes": "^5.2.0",
     "@folio/stripes": "^6.0.0",
     "@folio/stripes-cli": "^2.0.0",
+    "@formatjs/cli": "^4.2.6",
     "babel-eslint": "^9.0.0",
     "eslint": "^6.2.1",
     "react": "^16.5.0",
