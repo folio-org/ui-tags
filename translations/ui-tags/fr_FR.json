@@ -9,5 +9,5 @@
     "permission.create": "Tags: créer des tags",
     "permission.edit": "Tags: Modifier les tags",
     "permission.delete": "Tags: supprimer les tags",
-    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
+    "permission.settings": "Paramètres (mots-clés): peut activer ou désactiver les mots-clés pour toutes les applications"
 }
