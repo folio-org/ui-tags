@@ -4,10 +4,10 @@
     "settings.tags.label": "標籤",
     "settings.general.label": "一般",
     "settings.enableTags": "啟用標籤",
-    "permission.all": "Tags: All permissions",
-    "permission.view": "Tags on records: View only",
-    "permission.create": "Tags: Create tags",
-    "permission.edit": "Tags: Edit tags",
-    "permission.delete": "Tags: Delete tags",
-    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
+    "permission.all": "标签：所有权限",
+    "permission.view": "记录标签：仅查看",
+    "permission.create": "标签：创建标签",
+    "permission.edit": "标签：编辑标签",
+    "permission.delete": "标签：删除标签",
+    "permission.settings": "设置（标签）：可以为所有应用启用或禁用标签"
 }
