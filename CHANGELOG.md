@@ -1,5 +1,9 @@
 # Change history for ui-tags
 
+## [6.0.0] IN PROGRESS
+
+* Increment stripes to v7, react to v17. Refs UITAG-47.
+
 ## [5.0.1](https://github.com/folio-org/ui-tags/tree/v5.0.1) (2021-06-18)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v5.0.0...v5.0.1)
 
