@@ -103,6 +103,7 @@
   "scripts": {
     "start": "yarn stripes serve",
     "lint": "eslint .",
+    "build-mod-descriptor": "stripes mod descriptor --full --strict | jq '.[]' > module-descriptor.json ",
     "formatjs-compile": "formatjs compile-folder --ast --format simple ./translations/ui-tags ./translations/ui-tags/compiled",
     "test": "echo 'placeholder. no tests implemented'"
   },
