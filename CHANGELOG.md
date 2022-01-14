@@ -1,5 +1,9 @@
 # Change history for ui-tags
 
+## [6.1.0](IN PROGRESS)
+
+* Add displayName to ui-tags.all permission. Refs UITAG-51.
+
 ## [6.0.0](https://github.com/folio-org/ui-tags/tree/v6.0.0) (2021-10-05)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v5.0.1...v6.0.0)
 
