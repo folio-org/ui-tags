@@ -1,5 +1,9 @@
 # Change history for ui-tags
 
+## **6.0.1** (in progress)
+
+* Settings > Tags : Move focus to second pane. Refs UITAG-38.
+
 ## [6.0.0](https://github.com/folio-org/ui-tags/tree/v6.0.0) (2021-10-05)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v5.0.1...v6.0.0)
 
