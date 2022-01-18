@@ -52,6 +52,7 @@
       },
       {
         "permissionName": "ui-tags.all",
+        "displayName": "Tags: All permissions",
         "subPermissions": [
           "module.tags.enabled",
           "ui-tags.view",

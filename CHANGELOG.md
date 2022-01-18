@@ -1,7 +1,8 @@
 # Change history for ui-tags
 
-## **6.0.1** (in progress)
+## [6.1.0](IN PROGRESS)
 
+* Add displayName to ui-tags.all permission. Refs UITAG-51.
 * Settings > Tags : Move focus to second pane. Refs UITAG-38.
 
 ## [6.0.0](https://github.com/folio-org/ui-tags/tree/v6.0.0) (2021-10-05)
