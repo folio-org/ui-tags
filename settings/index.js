@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { createRef } from 'react';
 import { FormattedMessage } from 'react-intl';
 import { Settings } from '@folio/stripes/smart-components';
 
@@ -17,10 +17,19 @@ export default class Tags extends React.Component {
     ];
   }
 
+  paneTitleRef = createRef();
+
+  componentDidMount() {
+    if (this.paneTitleRef.current) {
+      this.paneTitleRef.current.focus();
+    }
+  }
+
   render() {
     return (
       <Settings
         {...this.props}
+        paneTitleRef={this.paneTitleRef}
         pages={this.pages}
         paneTitle={<FormattedMessage id="ui-tags.settings.index.paneTitle" />}
       />
