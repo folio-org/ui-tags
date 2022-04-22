@@ -109,12 +109,12 @@
     "test": "echo 'placeholder. no tests implemented'"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^5.2.0",
+    "@babel/eslint-parser": "^7.17.0",
+    "@folio/eslint-config-stripes": "^6.1.0",
     "@folio/stripes": "^7.0.0",
-    "@folio/stripes-cli": "^2.0.0",
+    "@folio/stripes-cli": "^2.4.0",
     "@formatjs/cli": "^4.2.6",
-    "babel-eslint": "^9.0.0",
-    "eslint": "^6.2.1",
+    "eslint": "^7.32.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-intl": "^5.8.0",
