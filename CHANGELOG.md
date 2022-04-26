@@ -1,5 +1,9 @@
 # Change history for ui-tags
 
+## [6.2.0](IN PROGRESS)
+
+* Replace `babel-eslint` with `@babel/eslint-parser`. Refs UITAG-54.
+
 ## [6.1.0](https://github.com/folio-org/ui-tags/tree/v6.1.0) (2022-03-01)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v6.0.0...v6.1.0)
 

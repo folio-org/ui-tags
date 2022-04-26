@@ -17,6 +17,7 @@ export default class Tags extends React.Component {
     ];
   }
 
+  // eslint-disable-next-line react/sort-comp
   paneTitleRef = createRef();
 
   componentDidMount() {
