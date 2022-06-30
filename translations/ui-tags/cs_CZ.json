@@ -1,8 +1,8 @@
 {
     "meta.title": "Tags",
-    "settings.index.paneTitle": "Tags",
+    "settings.index.paneTitle": "Tagy",
     "settings.tags.label": "Tagy",
-    "settings.general.label": "General",
+    "settings.general.label": "Obecné",
     "settings.enableTags": "Povolit tagy",
     "permission.all": "Tags: All permissions",
     "permission.view": "Tags on records: View only",
