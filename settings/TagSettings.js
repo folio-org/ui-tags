@@ -25,6 +25,8 @@ class TagSettings extends React.Component {
   }
 
   render() {
+    console.log('config manager ', this.configManager);
+    console.log('Row ', Row);
     return (
       <this.configManager
         getInitialValues={this.getInitialValues}
