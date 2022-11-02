@@ -5,7 +5,7 @@ const esModules = ['@folio'].join('|');
 
 module.exports = {
   collectCoverageFrom: [
-    '**/(lib|src)/**/*.{js,jsx}',
+    '**/(lib|src|settings)/**/*.{js,jsx}',
     '!**/node_modules/**',
     '!**/test/jest/**',
   ],
