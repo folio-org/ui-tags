@@ -19,7 +19,6 @@ module.exports = {
     '^.+\\.(svg)$': 'identity-obj-proxy',
     'ky': 'ky/umd',
   },
-  testEnvironment: 'jsdom',
   testMatch: ['**/settings/?(*.)test.{js,jsx}'],
   testPathIgnorePatterns: ['/node_modules/'],
   setupFiles: [path.join(__dirname, './test/jest/setup-tests.js')],
