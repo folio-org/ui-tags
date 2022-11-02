@@ -6,8 +6,8 @@
     "settings.enableTags": "Abilita tag",
     "permission.all": "Tag: tutte le autorizzazioni",
     "permission.view": "Tag nei record: solo visualizzazione",
-    "permission.create": "Tag: Creare tag",
-    "permission.edit": "Tag: modifica i tag",
+    "permission.create": "Tag: creare tag",
+    "permission.edit": "Tag: modificare i tag",
     "permission.delete": "Tag: Eliminare i tag",
-    "permission.settings": "Impostazioni (tag): può abilitare o disabilitare i tag per tutte le app"
+    "permission.settings": "Impostazioni (tag): abilitare o disabilitare i tag per tutte le app"
 }
