@@ -1,8 +1,8 @@
 import React from 'react';
 
 jest.mock('@folio/stripes/smart-components', () => ({
-  AddressEdit: jest.fn(() => null),
-  ConfigManager: jest.fn(({ children, ...rest }) => <div {...rest}>{children}</div>), // jest.fn(({ children }) => <div>{children}</div>),
+  ...jest.requireActual('@folio/stripes/smart-components'),
+  AddressEdit: jest.fn(() => <div>AddressEdit</div>),
   Settings: jest.fn(({
     pages,
     paneTitle,
@@ -19,4 +19,6 @@ jest.mock('@folio/stripes/smart-components', () => ({
       </span>
     </>
   )),
-}), { virtual: true });
+  // ChangeDueDateDialog: jest.fn(() => <div data-testid="change-duedate-dialog">ChangeDueDateDialog</div>),
+  // DueDatePicker: () => <div data-testid="due-date-picker">DueDatePicker</div>,
+}));

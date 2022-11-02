@@ -1,5 +1,6 @@
 
 jest.mock('@folio/stripes/components', () => ({
+  ...jest.requireActual('@folio/stripes/components'),
   AutoSuggest: jest.fn(() => ({ input }) => <input {...input} />),
   Badge: jest.fn((props) => (
     <span>
@@ -13,6 +14,14 @@ jest.mock('@folio/stripes/components', () => ({
     </label>
   )),
   Col: jest.fn(({ children, ...rest }) => <div {...rest}>{children}</div>),
+  Icon: jest.fn((props) => (props && props.children ? props.children : <span />)),
+  icons: {},
+  Label: jest.fn(({ children, ...rest }) => (
+    <span {...rest}>{children}</span>
+  )),
   Row: jest.fn(({ children, ...rest }) => <div {...rest}>{children}</div>),
 }));
 
+jest.mock('@folio/stripes-components/util/currencies', () => {
+  return {};
+});

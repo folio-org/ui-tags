@@ -4,6 +4,7 @@ import { FormattedMessage } from 'react-intl';
 import { Field } from 'redux-form';
 import { Checkbox, Col, Row } from '@folio/stripes/components';
 import { ConfigManager } from '@folio/stripes/smart-components';
+// import '../test/jest/__mock__';
 
 class TagSettings extends React.Component {
   static propTypes = {
@@ -27,6 +28,7 @@ class TagSettings extends React.Component {
   render() {
     console.log('config manager ', this.configManager);
     console.log('Row ', Row);
+    console.log('FormattedMessage ', FormattedMessage);
     return (
       <this.configManager
         getInitialValues={this.getInitialValues}
