@@ -140,8 +140,7 @@
   },
   "dependencies": {
     "prop-types": "^15.5.10",
-    "redux-form": "^8.3.7",
-    "remove": "^0.1.5"
+    "redux-form": "^8.3.7"
   },
   "peerDependencies": {
     "@folio/stripes": "^7.0.0",
