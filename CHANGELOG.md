@@ -1,5 +1,9 @@
 # Change history for ui-tags
 
+## [6.4.0] (IN PROGRESS)
+
+* Refactored <TagsSettings> to be a functional component and added tests. Refs UITAG-58.
+
 ## [6.3.0](https://github.com/folio-org/ui-tags/tree/v6.3.0) (2022-10-25)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v6.2.0...v6.3.0)
 
