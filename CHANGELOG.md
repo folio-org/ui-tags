@@ -4,6 +4,7 @@
 
 * Refactored <TagsSettings> to be a functional component and added tests. Refs UITAG-58.
 * bump stripes to 8.0.0 for Orchid/2023-R1. Refs UITAG-61.
+* Upgrade `react-redux` to `v8`. Refs UITAG-62.
 
 ## [6.3.0](https://github.com/folio-org/ui-tags/tree/v6.3.0) (2022-10-25)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v6.2.0...v6.3.0)
