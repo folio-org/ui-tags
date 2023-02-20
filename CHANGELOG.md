@@ -1,6 +1,7 @@
 # Change history for ui-tags
 
-## [7.0.0] (IN PROGRESS)
+## [7.0.0](https://github.com/folio-org/ui-tags/tree/v7.0.0) (2023-02-20)
+[Full Changelog](https://github.com/folio-org/ui-tags/compare/v6.3.0...v7.0.0)
 
 * Refactored <TagsSettings> to be a functional component and added tests. Refs UITAG-58.
 * bump stripes to 8.0.0 for Orchid/2023-R1. Refs UITAG-61.
