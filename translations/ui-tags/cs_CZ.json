@@ -1,13 +1,13 @@
 {
-    "meta.title": "Tagy",
+    "meta.title": "Štítky",
     "settings.index.paneTitle": "Tagy",
     "settings.tags.label": "Tagy",
     "settings.general.label": "Obecné",
     "settings.enableTags": "Povolit tagy",
-    "permission.all": "Tagy: Všechna oprávnění",
-    "permission.view": "Tagy na záznamech: Pouze zobrazení",
-    "permission.create": "Tagy: Vytvořte tagy",
-    "permission.edit": "Tagy: Upravit tagy",
-    "permission.delete": "Tagy: Smazat tagy",
+    "permission.all": "Štítky: Všechna oprávnění",
+    "permission.view": "Štítky na záznamech: Pouze zobrazení",
+    "permission.create": "Štítky: Vytvořte štítky",
+    "permission.edit": "Štítky: Upravit štítky",
+    "permission.delete": "Štítky: Smazat štítky",
     "permission.settings": "Nastavení (Tagy): Může povolit nebo zakázat tagy pro všechny aplikace"
 }
