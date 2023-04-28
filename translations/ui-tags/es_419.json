@@ -4,10 +4,10 @@
     "settings.tags.label": "Etiquetas",
     "settings.general.label": "General",
     "settings.enableTags": "Habilitar etiquetas",
-    "permission.all": "Tags: All permissions",
-    "permission.view": "Tags on records: View only",
+    "permission.all": "Etiquetas: Todos los permisos",
+    "permission.view": "Etiquetas en los registros: Ver sólo",
     "permission.create": "Tags: Crear tags",
     "permission.edit": "Tags: Editar tags",
-    "permission.delete": "Tags: Delete tags",
+    "permission.delete": "Etiquetas: Borrar etiquetas",
     "permission.settings": "Ajustes (Etiquetas): Puede activar o desactivar las etiquetas para todas las aplicaciones"
 }
