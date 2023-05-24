@@ -43,10 +43,20 @@
         "visible": false
       },
       {
-        "permissionName": "ui-tags.settings",
+        "permissionName": "ui-tags.settings.view",
+        "displayName": "Settings (Tags): Can view tags settings",
+        "subPermissions": [
+          "settings.tags.enabled",
+          "configuration.entries.collection.get"
+        ],
+        "visible": true
+      },
+      {
+        "permissionName": "ui-tags.settings.all",
         "displayName": "Settings (Tags): Can enable or disable tags for all apps",
         "subPermissions": [
-          "settings.tags.enabled"
+          "ui-tags.settings.view",
+          "configuration.entries.collection.put"
         ],
         "visible": true
       },

@@ -40,6 +40,7 @@ const TagSettings = ({ label }) => {
             id="tags_enabled"
             name="tags_enabled"
             label={intl.formatMessage({ id: 'ui-tags.settings.enableTags' })}
+            disabled={!stripes?.user?.perms['ui-tags.settings.all']}
           />
         </Col>
       </Row>
