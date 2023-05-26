@@ -56,7 +56,8 @@
         "displayName": "Settings (Tags): Can enable or disable tags for all apps",
         "subPermissions": [
           "ui-tags.settings.view",
-          "configuration.entries.collection.put"
+          "configuration.entries.collection.put",
+          "configuration.entries.collection.post"
         ],
         "visible": true
       },
