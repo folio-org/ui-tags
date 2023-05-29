@@ -56,8 +56,8 @@
         "displayName": "Settings (Tags): Can enable or disable tags for all apps",
         "subPermissions": [
           "ui-tags.settings.view",
-          "configuration.entries.collection.put",
-          "configuration.entries.collection.post"
+          "configuration.entries.item.put",
+          "configuration.entries.item.post"
         ],
         "visible": true
       },
@@ -121,6 +121,7 @@
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.17.0",
+    "@babel/plugin-proposal-private-methods": "^7.13.0",
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@folio/eslint-config-stripes": "^6.1.0",
     "@folio/stripes": "^8.0.0",
