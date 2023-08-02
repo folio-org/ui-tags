@@ -1,4 +1,5 @@
 import { render } from '@folio/jest-config-stripes/testing-library/react';
+
 import { reducer as formReducer } from 'redux-form';
 import {
   createStore,
@@ -8,26 +9,32 @@ import { Provider } from 'react-redux';
 import { Router } from 'react-router-dom';
 import { createMemoryHistory } from 'history';
 
-import TagSettings from './TagSettings';
+import Tags from './index';
+
+jest.unmock('@folio/stripes/smart-components');
+
+jest.mock('@folio/stripes/smart-components', () => ({
+  ...jest.requireActual('@folio/stripes/smart-components'),
+  Settings: jest.fn(() => 'Settings'),
+}));
 
 const store = createStore(combineReducers({ form: formReducer }));
 const history = createMemoryHistory();
 
-const renderTagSettings = (props = {}) => render(
+const renderTags = (props = {}) => render(
   <Provider store={store}>
     <Router history={history}>
-      <TagSettings
-        label="Tags label"
+      <Tags
         {...props}
       />
     </Router>
   </Provider>
 );
 
-describe('Tag Settings', () => {
-  it('should render ConfigManager component ', () => {
-    const { getByText } = renderTagSettings();
+describe('Tags', () => {
+  it('should render component', () =>{
+    const { getByText } = renderTags({});
 
-    expect(getByText('Tags label')).toBeInTheDocument();
+    expect(getByText('Settings')).toBeDefined();
   });
 });
