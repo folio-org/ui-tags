@@ -32,7 +32,7 @@ const renderTags = (props = {}) => render(
 );
 
 describe('Tags', () => {
-  it('should render component', () =>{
+  it('should render component', () => {
     const { getByText } = renderTags({});
 
     expect(getByText('Settings')).toBeDefined();
