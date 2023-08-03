@@ -7,6 +7,8 @@
 * Upgrade `react-redux` to `v8`. Refs UITAG-62.
 * Need new permission(s) to view all Tags settings in UI. Refs UITAG-63.
 * Cannot view or edit tag settings when user is assigned permission "Settings (Tags): Can enable or disable tags for all apps". Refs UITAG-67.
+* Upgrade React to v18. Refs UITAG-70.
+* Leverage jest-config-stripes for all jest and testing-library packages. Refs UITAG-71.
 
 ## [6.3.0](https://github.com/folio-org/ui-tags/tree/v6.3.0) (2022-10-25)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v6.2.0...v6.3.0)
