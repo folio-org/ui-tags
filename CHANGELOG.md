@@ -1,6 +1,6 @@
 # Change history for ui-tags
 
-## [7.0.0] (IN PROGRESS)
+## [8.0.0] (IN PROGRESS)
 
 * Refactored <TagsSettings> to be a functional component and added tests. Refs UITAG-58.
 * bump stripes to 8.0.0 for Orchid/2023-R1. Refs UITAG-61.
@@ -9,6 +9,8 @@
 * Cannot view or edit tag settings when user is assigned permission "Settings (Tags): Can enable or disable tags for all apps". Refs UITAG-67.
 * Upgrade React to v18. Refs UITAG-70.
 * Leverage jest-config-stripes for all jest and testing-library packages. Refs UITAG-71.
+* Add PULL_REQUEST_TEMPLATE.md file to the repository. Refs UITAG-68.
+* Update Node.js to v18 in GitHub Actions. Refs UITAG-72.
 
 ## [6.3.0](https://github.com/folio-org/ui-tags/tree/v6.3.0) (2022-10-25)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v6.2.0...v6.3.0)
