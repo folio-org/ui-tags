@@ -11,6 +11,7 @@
 * Leverage jest-config-stripes for all jest and testing-library packages. Refs UITAG-71.
 * Add PULL_REQUEST_TEMPLATE.md file to the repository. Refs UITAG-68.
 * Update Node.js to v18 in GitHub Actions. Refs UITAG-72.
+* *BREAKING* bump `react-intl` to `v6.4.4`. Refs UITG-74.
 
 ## [6.3.0](https://github.com/folio-org/ui-tags/tree/v6.3.0) (2022-10-25)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v6.2.0...v6.3.0)
