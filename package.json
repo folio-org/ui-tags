@@ -1,6 +1,6 @@
 {
   "name": "@folio/tags",
-  "version": "8.0.0",
+  "version": "8.0.2",
   "description": "Tags manager",
   "repository": "folio-org/ui-tags",
   "publishConfig": {

@@ -2,8 +2,8 @@
 
 ## [9.0.0] (IN PROGRESS)
 
-## [8.0.0](https://github.com/folio-org/ui-tags/tree/v8.0.0) (2022-10-12)
-[Full Changelog](https://github.com/folio-org/ui-tags/compare/v7.0.0...v8.0.0)
+## [8.0.2](https://github.com/folio-org/ui-tags/tree/v8.0.2) (2022-10-12)
+[Full Changelog](https://github.com/folio-org/ui-tags/compare/v7.0.0...v8.0.2)
 
 * Need new permission(s) to view all Tags settings in UI. Refs UITAG-63.
 * Cannot view or edit tag settings when user is assigned permission "Settings (Tags): Can enable or disable tags for all apps". Refs UITAG-67.
