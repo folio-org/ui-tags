@@ -1,7 +1,7 @@
 {
-    "meta.title": "Etykiety",
-    "settings.index.paneTitle": "Etykiety",
-    "settings.tags.label": "Etykiety",
+    "meta.title": "Tagi",
+    "settings.index.paneTitle": "Tagi",
+    "settings.tags.label": "Tagi",
     "settings.general.label": "Ogólne",
     "settings.enableTags": "Włączanie etykiet",
     "permission.all": "Etykiety: wszystkie uprawnienia",
