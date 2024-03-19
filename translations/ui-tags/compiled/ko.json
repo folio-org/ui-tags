@@ -1,0 +1,68 @@
+{
+  "meta.title": [
+    {
+      "type": 0,
+      "value": "태그"
+    }
+  ],
+  "permission.all": [
+    {
+      "type": 0,
+      "value": "태그 : 모든 권한"
+    }
+  ],
+  "permission.create": [
+    {
+      "type": 0,
+      "value": "태그 : 태그 만들기"
+    }
+  ],
+  "permission.delete": [
+    {
+      "type": 0,
+      "value": "태그 : 태그 삭제"
+    }
+  ],
+  "permission.edit": [
+    {
+      "type": 0,
+      "value": "태그 : 태그 편집"
+    }
+  ],
+  "permission.settings": [
+    {
+      "type": 0,
+      "value": "설정(태그): 모든 앱에 대해 태그를 활성화 또는 비활성화할 수 있습니다."
+    }
+  ],
+  "permission.view": [
+    {
+      "type": 0,
+      "value": "레코드의 태그 :보기 전용"
+    }
+  ],
+  "settings.enableTags": [
+    {
+      "type": 0,
+      "value": "태그 활성화"
+    }
+  ],
+  "settings.general.label": [
+    {
+      "type": 0,
+      "value": "일반"
+    }
+  ],
+  "settings.index.paneTitle": [
+    {
+      "type": 0,
+      "value": "태그"
+    }
+  ],
+  "settings.tags.label": [
+    {
+      "type": 0,
+      "value": "태그"
+    }
+  ]
+}

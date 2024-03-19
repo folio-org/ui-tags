@@ -1,0 +1,68 @@
+{
+  "meta.title": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ],
+  "permission.all": [
+    {
+      "type": 0,
+      "value": "Tags: Todas as permissões"
+    }
+  ],
+  "permission.create": [
+    {
+      "type": 0,
+      "value": "Tags: Criar tags"
+    }
+  ],
+  "permission.delete": [
+    {
+      "type": 0,
+      "value": "Etiquetas: Eliminar etiquetas"
+    }
+  ],
+  "permission.edit": [
+    {
+      "type": 0,
+      "value": "Tags: Editar tags"
+    }
+  ],
+  "permission.settings": [
+    {
+      "type": 0,
+      "value": "Configurações (Tags): Pode ativar ou desativar tags para todos os aplicativos"
+    }
+  ],
+  "permission.view": [
+    {
+      "type": 0,
+      "value": "Tags nos registros: somente visualização"
+    }
+  ],
+  "settings.enableTags": [
+    {
+      "type": 0,
+      "value": "Habilitar tags"
+    }
+  ],
+  "settings.general.label": [
+    {
+      "type": 0,
+      "value": "Geral"
+    }
+  ],
+  "settings.index.paneTitle": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ],
+  "settings.tags.label": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ]
+}

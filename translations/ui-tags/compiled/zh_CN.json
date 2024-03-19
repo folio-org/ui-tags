@@ -1,0 +1,68 @@
+{
+  "meta.title": [
+    {
+      "type": 0,
+      "value": "标签"
+    }
+  ],
+  "permission.all": [
+    {
+      "type": 0,
+      "value": "标签：所有权限"
+    }
+  ],
+  "permission.create": [
+    {
+      "type": 0,
+      "value": "标签：创建标签"
+    }
+  ],
+  "permission.delete": [
+    {
+      "type": 0,
+      "value": "标签：删除标签"
+    }
+  ],
+  "permission.edit": [
+    {
+      "type": 0,
+      "value": "标签：编辑标签"
+    }
+  ],
+  "permission.settings": [
+    {
+      "type": 0,
+      "value": "设置（标签）：可以为所有应用启用或禁用标签"
+    }
+  ],
+  "permission.view": [
+    {
+      "type": 0,
+      "value": "记录标签：仅查看"
+    }
+  ],
+  "settings.enableTags": [
+    {
+      "type": 0,
+      "value": "启用标签"
+    }
+  ],
+  "settings.general.label": [
+    {
+      "type": 0,
+      "value": "通用"
+    }
+  ],
+  "settings.index.paneTitle": [
+    {
+      "type": 0,
+      "value": "标签"
+    }
+  ],
+  "settings.tags.label": [
+    {
+      "type": 0,
+      "value": "标签"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "meta.title": [
+    {
+      "type": 0,
+      "value": "Mots-clés"
+    }
+  ],
+  "permission.all": [
+    {
+      "type": 0,
+      "value": "Tags: toutes les autorisations"
+    }
+  ],
+  "permission.create": [
+    {
+      "type": 0,
+      "value": "Tags: créer des tags"
+    }
+  ],
+  "permission.delete": [
+    {
+      "type": 0,
+      "value": "Tags: supprimer les tags"
+    }
+  ],
+  "permission.edit": [
+    {
+      "type": 0,
+      "value": "Tags: Modifier les tags"
+    }
+  ],
+  "permission.settings": [
+    {
+      "type": 0,
+      "value": "Paramètres (mots-clés): peut activer ou désactiver les mots-clés pour toutes les applications"
+    }
+  ],
+  "permission.view": [
+    {
+      "type": 0,
+      "value": "Tags sur les enregistrements: Afficher uniquement"
+    }
+  ],
+  "settings.enableTags": [
+    {
+      "type": 0,
+      "value": "Activer les mots-clés"
+    }
+  ],
+  "settings.general.label": [
+    {
+      "type": 0,
+      "value": "Général"
+    }
+  ],
+  "settings.index.paneTitle": [
+    {
+      "type": 0,
+      "value": "Mots-clés"
+    }
+  ],
+  "settings.tags.label": [
+    {
+      "type": 0,
+      "value": "Mots-clés"
+    }
+  ]
+}

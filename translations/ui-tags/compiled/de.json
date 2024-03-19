@@ -1,0 +1,68 @@
+{
+  "meta.title": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ],
+  "permission.all": [
+    {
+      "type": 0,
+      "value": "Tags: Alle Berechtigungen"
+    }
+  ],
+  "permission.create": [
+    {
+      "type": 0,
+      "value": "Tags: Tags erstellen"
+    }
+  ],
+  "permission.delete": [
+    {
+      "type": 0,
+      "value": "Tags: Tags löschen"
+    }
+  ],
+  "permission.edit": [
+    {
+      "type": 0,
+      "value": "Tags: Tags bearbeiten"
+    }
+  ],
+  "permission.settings": [
+    {
+      "type": 0,
+      "value": "Einstellungen (Tags): Kann Tags für alle Apps aktivieren oder deaktivieren"
+    }
+  ],
+  "permission.view": [
+    {
+      "type": 0,
+      "value": "Tags in Datensätzen: nur anzeigen"
+    }
+  ],
+  "settings.enableTags": [
+    {
+      "type": 0,
+      "value": "Tags aktivieren"
+    }
+  ],
+  "settings.general.label": [
+    {
+      "type": 0,
+      "value": "Allgemein"
+    }
+  ],
+  "settings.index.paneTitle": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ],
+  "settings.tags.label": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ]
+}

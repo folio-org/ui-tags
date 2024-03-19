@@ -1,0 +1,68 @@
+{
+  "meta.title": [
+    {
+      "type": 0,
+      "value": "الوسوم"
+    }
+  ],
+  "permission.all": [
+    {
+      "type": 0,
+      "value": "الوسوم: كل الصلاحيات"
+    }
+  ],
+  "permission.create": [
+    {
+      "type": 0,
+      "value": "الوسوم: أنشئ وسوم"
+    }
+  ],
+  "permission.delete": [
+    {
+      "type": 0,
+      "value": "الوسوم: احذف الوسوم"
+    }
+  ],
+  "permission.edit": [
+    {
+      "type": 0,
+      "value": "الوسوم: حرّر الوسوم"
+    }
+  ],
+  "permission.settings": [
+    {
+      "type": 0,
+      "value": "الإعدادات (الوسوم): إمكانية تفعيل أو تعطيل الوسوم لكل التطبيقات"
+    }
+  ],
+  "permission.view": [
+    {
+      "type": 0,
+      "value": "وسوم على التسجيلات: اعرض فقط"
+    }
+  ],
+  "settings.enableTags": [
+    {
+      "type": 0,
+      "value": "تفعيل الوسوم"
+    }
+  ],
+  "settings.general.label": [
+    {
+      "type": 0,
+      "value": "عام"
+    }
+  ],
+  "settings.index.paneTitle": [
+    {
+      "type": 0,
+      "value": "الوسوم"
+    }
+  ],
+  "settings.tags.label": [
+    {
+      "type": 0,
+      "value": "الوسوم"
+    }
+  ]
+}

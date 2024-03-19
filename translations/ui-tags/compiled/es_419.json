@@ -1,0 +1,68 @@
+{
+  "meta.title": [
+    {
+      "type": 0,
+      "value": "Etiquetas"
+    }
+  ],
+  "permission.all": [
+    {
+      "type": 0,
+      "value": "Etiquetas: Todos los permisos"
+    }
+  ],
+  "permission.create": [
+    {
+      "type": 0,
+      "value": "Tags: Crear tags"
+    }
+  ],
+  "permission.delete": [
+    {
+      "type": 0,
+      "value": "Etiquetas: Borrar etiquetas"
+    }
+  ],
+  "permission.edit": [
+    {
+      "type": 0,
+      "value": "Tags: Editar tags"
+    }
+  ],
+  "permission.settings": [
+    {
+      "type": 0,
+      "value": "Ajustes (Etiquetas): Puede activar o desactivar las etiquetas para todas las aplicaciones"
+    }
+  ],
+  "permission.view": [
+    {
+      "type": 0,
+      "value": "Etiquetas en los registros: Ver sólo"
+    }
+  ],
+  "settings.enableTags": [
+    {
+      "type": 0,
+      "value": "Habilitar etiquetas"
+    }
+  ],
+  "settings.general.label": [
+    {
+      "type": 0,
+      "value": "General"
+    }
+  ],
+  "settings.index.paneTitle": [
+    {
+      "type": 0,
+      "value": "Etiquetas"
+    }
+  ],
+  "settings.tags.label": [
+    {
+      "type": 0,
+      "value": "Etiquetas"
+    }
+  ]
+}

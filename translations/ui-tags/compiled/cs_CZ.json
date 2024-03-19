@@ -1,0 +1,68 @@
+{
+  "meta.title": [
+    {
+      "type": 0,
+      "value": "Štítky"
+    }
+  ],
+  "permission.all": [
+    {
+      "type": 0,
+      "value": "Štítky: Všechna oprávnění"
+    }
+  ],
+  "permission.create": [
+    {
+      "type": 0,
+      "value": "Štítky: Vytvořte štítky"
+    }
+  ],
+  "permission.delete": [
+    {
+      "type": 0,
+      "value": "Štítky: Smazat štítky"
+    }
+  ],
+  "permission.edit": [
+    {
+      "type": 0,
+      "value": "Štítky: Upravit štítky"
+    }
+  ],
+  "permission.settings": [
+    {
+      "type": 0,
+      "value": "Nastavení (Štítky): Může povolit nebo zakázat štítky pro všechny aplikace"
+    }
+  ],
+  "permission.view": [
+    {
+      "type": 0,
+      "value": "Štítky na záznamech: Pouze zobrazení"
+    }
+  ],
+  "settings.enableTags": [
+    {
+      "type": 0,
+      "value": "Povolit štítky"
+    }
+  ],
+  "settings.general.label": [
+    {
+      "type": 0,
+      "value": "Obecné"
+    }
+  ],
+  "settings.index.paneTitle": [
+    {
+      "type": 0,
+      "value": "Štítky"
+    }
+  ],
+  "settings.tags.label": [
+    {
+      "type": 0,
+      "value": "Štítky"
+    }
+  ]
+}

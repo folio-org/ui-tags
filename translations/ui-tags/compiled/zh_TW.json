@@ -1,0 +1,68 @@
+{
+  "meta.title": [
+    {
+      "type": 0,
+      "value": "標籤"
+    }
+  ],
+  "permission.all": [
+    {
+      "type": 0,
+      "value": "標籤：所有權限"
+    }
+  ],
+  "permission.create": [
+    {
+      "type": 0,
+      "value": "標籤：新增標籤"
+    }
+  ],
+  "permission.delete": [
+    {
+      "type": 0,
+      "value": "標籤：刪除標籤"
+    }
+  ],
+  "permission.edit": [
+    {
+      "type": 0,
+      "value": "標籤：編輯標籤"
+    }
+  ],
+  "permission.settings": [
+    {
+      "type": 0,
+      "value": "設置（標籤）：可以為所有應用程式啟用或停用標籤"
+    }
+  ],
+  "permission.view": [
+    {
+      "type": 0,
+      "value": "記錄上的標籤：僅查看"
+    }
+  ],
+  "settings.enableTags": [
+    {
+      "type": 0,
+      "value": "啟用標籤"
+    }
+  ],
+  "settings.general.label": [
+    {
+      "type": 0,
+      "value": "一般"
+    }
+  ],
+  "settings.index.paneTitle": [
+    {
+      "type": 0,
+      "value": "標籤"
+    }
+  ],
+  "settings.tags.label": [
+    {
+      "type": 0,
+      "value": "標籤"
+    }
+  ]
+}

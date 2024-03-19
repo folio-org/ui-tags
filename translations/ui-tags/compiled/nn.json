@@ -1,0 +1,68 @@
+{
+  "meta.title": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ],
+  "permission.all": [
+    {
+      "type": 0,
+      "value": "Tags: All permissions"
+    }
+  ],
+  "permission.create": [
+    {
+      "type": 0,
+      "value": "Tags: Create tags"
+    }
+  ],
+  "permission.delete": [
+    {
+      "type": 0,
+      "value": "Tags: Delete tags"
+    }
+  ],
+  "permission.edit": [
+    {
+      "type": 0,
+      "value": "Tags: Edit tags"
+    }
+  ],
+  "permission.settings": [
+    {
+      "type": 0,
+      "value": "Settings (Tags): Can enable or disable tags for all apps"
+    }
+  ],
+  "permission.view": [
+    {
+      "type": 0,
+      "value": "Tags on records: View only"
+    }
+  ],
+  "settings.enableTags": [
+    {
+      "type": 0,
+      "value": "Enable tags"
+    }
+  ],
+  "settings.general.label": [
+    {
+      "type": 0,
+      "value": "General"
+    }
+  ],
+  "settings.index.paneTitle": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ],
+  "settings.tags.label": [
+    {
+      "type": 0,
+      "value": "Tags"
+    }
+  ]
+}
