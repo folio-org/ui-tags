@@ -2,6 +2,9 @@
 
 ## [9.0.0] (IN PROGRESS)
 
+## [8.1.0](https://github.com/folio-org/ui-tags/tree/b8.1.0)
+[Full Changelog](https://github.com/folio-org/ui-tags/compare/v8.0.2...b8.1.0)
+
 ## [8.0.2](https://github.com/folio-org/ui-tags/tree/v8.0.2) (2022-10-12)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v7.0.0...v8.0.2)
 
