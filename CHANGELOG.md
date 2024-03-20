@@ -1,8 +1,8 @@
 # Change history for ui-tags
 
-## [9.0.0] (IN PROGRESS)
+## [8.2.0] (IN PROGRESS)
 
-## [8.1.0](https://github.com/folio-org/ui-tags/tree/b8.1) (2024-03-20)
+## [8.1.0](https://github.com/folio-org/ui-tags/tree/v8.1.0) (2024-03-20)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v8.0.2...v8.1.0)
 
 * Several translations have been introduced/updated.
