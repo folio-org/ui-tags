@@ -1,8 +1,13 @@
 # Change history for ui-tags
 
-## [9.0.0] (IN PROGRESS)
+## [8.2.0] (IN PROGRESS)
 
-## [8.0.2](https://github.com/folio-org/ui-tags/tree/v8.0.2) (2022-10-12)
+## [8.1.0](https://github.com/folio-org/ui-tags/tree/v8.1.0) (2024-03-20)
+[Full Changelog](https://github.com/folio-org/ui-tags/compare/v8.0.2...v8.1.0)
+
+* Several translations have been introduced/updated.
+
+## [8.0.2](https://github.com/folio-org/ui-tags/tree/v8.0.2) (2023-10-12)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v7.0.0...v8.0.2)
 
 * Need new permission(s) to view all Tags settings in UI. Refs UITAG-63.
