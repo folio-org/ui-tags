@@ -4,10 +4,10 @@
     "settings.tags.label": "Mots-clés",
     "settings.general.label": "Général",
     "settings.enableTags": "Activer les mots-clés",
-    "permission.all": "Tags: toutes les autorisations",
-    "permission.view": "Tags sur les enregistrements: Afficher uniquement",
-    "permission.create": "Tags: créer des tags",
-    "permission.edit": "Tags: Modifier les tags",
-    "permission.delete": "Tags: supprimer les tags",
+    "permission.all": "Mots-clés : toutes les autorisations",
+    "permission.view": "Mots-clés sur notices : Afficher uniquement",
+    "permission.create": "Mots-clés : créer des mots-clés",
+    "permission.edit": "Mots-clés : modifier des mots-clés",
+    "permission.delete": "Mots-clés : supprimer des mots-clés",
     "permission.settings": "Paramètres (mots-clés): peut activer ou désactiver les mots-clés pour toutes les applications"
 }
