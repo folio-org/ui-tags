@@ -6,8 +6,8 @@
     "settings.enableTags": "タグを有効にする",
     "permission.all": "タグ：すべての権限",
     "permission.view": "Tags on records: View only",
-    "permission.create": "Tags: Create tags",
-    "permission.edit": "Tags: Edit tags",
-    "permission.delete": "Tags: Delete tags",
+    "permission.create": "タグ: タグの作成",
+    "permission.edit": "タグ: タグの編集",
+    "permission.delete": "タグ: タグの削除",
     "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
 }
