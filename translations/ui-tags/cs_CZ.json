@@ -6,7 +6,7 @@
     "settings.enableTags": "Povolit štítky",
     "permission.all": "Štítky: Všechna oprávnění",
     "permission.view": "Štítky na záznamech: Pouze zobrazení",
-    "permission.create": "Štítky: Vytvořte štítky",
+    "permission.create": "Štítky: Vytvořit štítky",
     "permission.edit": "Štítky: Upravit štítky",
     "permission.delete": "Štítky: Smazat štítky",
     "permission.settings": "Nastavení (Štítky): Může povolit nebo zakázat štítky pro všechny aplikace"
