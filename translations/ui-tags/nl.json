@@ -2,12 +2,12 @@
     "meta.title": "Tags",
     "settings.index.paneTitle": "Tags",
     "settings.tags.label": "Tags",
-    "settings.general.label": "General",
-    "settings.enableTags": "Enable tags",
-    "permission.all": "Tags: All permissions",
-    "permission.view": "Tags on records: View only",
-    "permission.create": "Tags: Create tags",
-    "permission.edit": "Tags: Edit tags",
-    "permission.delete": "Tags: Delete tags",
-    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
+    "settings.general.label": "Algemeen",
+    "settings.enableTags": "Tags inschakelen",
+    "permission.all": "Tags: Alle machtigingen",
+    "permission.view": "Tags op records: Alleen bekijken",
+    "permission.create": "Tags: Tags aanmaken",
+    "permission.edit": "Tags: Tags bewerken",
+    "permission.delete": "Tags: Tags verwijderen",
+    "permission.settings": "Instellingen (tags): Kan tags voor alle apps in- of uitschakelen"
 }

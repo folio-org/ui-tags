@@ -9,5 +9,5 @@
     "permission.create": "タグ: タグの作成",
     "permission.edit": "タグ: タグの編集",
     "permission.delete": "タグ: タグの削除",
-    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
+    "permission.settings": "設定（タグ）: 全てのアプリのタグを有効または無効にできます"
 }
