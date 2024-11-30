@@ -4,10 +4,10 @@
     "settings.tags.label": "Tagi",
     "settings.general.label": "Ogólne",
     "settings.enableTags": "Włączanie tagów",
-    "permission.all": "Etykiety: wszystkie uprawnienia",
-    "permission.view": "Etykiety w rekordach: Tylko wyświetlanie",
-    "permission.create": "Etykiety: Tworzenie etykiet",
-    "permission.edit": "Etykiety: Edycja etykiet",
-    "permission.delete": "Etykiety: Usuwanie etykiet",
-    "permission.settings": "Ustawienia (Etykiety): Może odblokować lub zablokować etykiety dla wszystkich aplikacji"
+    "permission.all": "Tagi: wszystkie uprawnienia",
+    "permission.view": "Tagi w rekordach: tylko wyświetlanie",
+    "permission.create": "Tagi: tworzenie tagów",
+    "permission.edit": "Tagi: edytowanie tagów",
+    "permission.delete": "Tagi: usuwanie tagów",
+    "permission.settings": "Ustawienia (Tagi): można włączać lub wyłączać tagi dla wszystkich aplikacji"
 }
