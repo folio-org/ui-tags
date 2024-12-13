@@ -1,5 +1,9 @@
 # Change history for ui-tags
 
+## [8.3.0] In progress
+
+* Add display name to permission with name "ui-tags.view". Refs UITAG-83
+
 ## [8.2.0](https://github.com/folio-org/ui-tags/tree/v8.2.0) (2024-10-29)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v8.1.0...v8.2.0)
 
