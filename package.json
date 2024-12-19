@@ -1,6 +1,6 @@
 {
   "name": "@folio/tags",
-  "version": "8.2.0",
+  "version": "8.2.1",
   "description": "Tags manager",
   "repository": "folio-org/ui-tags",
   "publishConfig": {
@@ -72,6 +72,7 @@
       },
       {
         "permissionName": "ui-tags.view",
+        "displayName": "Tags on records: View only",
         "subPermissions": [
           "module.tags.enabled",
           "tags.collection.get"
