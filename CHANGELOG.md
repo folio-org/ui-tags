@@ -1,7 +1,8 @@
 # Change history for ui-tags
 
 ## In progress
-
+* *BREAKING* Migrate stripes dependencies to their Sunflower versions. Refs UITAG-86.
+* *BREAKING* Migrate react-intl to v7. Refs UITAG-87.
 
 ## [8.2.1](https://github.com/folio-org/ui-tags/tree/v8.2.1) (2024-12-19)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v8.2.0...v8.2.1)
