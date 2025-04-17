@@ -5,9 +5,9 @@
     "settings.general.label": "عام",
     "settings.enableTags": "تفعيل الوسوم",
     "permission.all": "الوسوم: كل الصلاحيات",
-    "permission.view": "وسوم على التسجيلات: اعرض فقط",
-    "permission.create": "الوسوم: أنشئ وسوم",
+    "permission.view": "وسوم على التسجيلات: عرض فقط",
+    "permission.create": "الوسوم: إنشاء وسوم",
     "permission.edit": "الوسوم: حرّر الوسوم",
-    "permission.delete": "الوسوم: احذف الوسوم",
+    "permission.delete": "الوسوم: حذف الوسوم",
     "permission.settings": "الإعدادات (الوسوم): إمكانية تفعيل أو تعطيل الوسوم لكل التطبيقات"
 }
