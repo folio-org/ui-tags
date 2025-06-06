@@ -4,10 +4,10 @@
     "settings.tags.label": "Теги",
     "settings.general.label": "Загальне",
     "settings.enableTags": "Увімкнути теги",
-    "permission.all": "Tags: All permissions",
+    "permission.all": "Теги: Всі дозволи",
     "permission.view": "Tags on records: View only",
-    "permission.create": "Tags: Create tags",
-    "permission.edit": "Tags: Edit tags",
-    "permission.delete": "Tags: Delete tags",
-    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
+    "permission.create": "Теги: Створення тегів",
+    "permission.edit": "Теги: Редагування тегів",
+    "permission.delete": "Теги: Видалення тегів",
+    "permission.settings": "Налаштування (Теги): Вмикання та вимикання тегів для всіх додатків"
 }
