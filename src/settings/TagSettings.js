@@ -11,6 +11,8 @@ import {
 import { ConfigManager } from '@folio/stripes/smart-components';
 import { useStripes } from '@folio/stripes/core';
 
+import {TAGS_SCOPE} from "../constants";
+
 const propTypes = {
   label: PropTypes.string,
 };
@@ -25,12 +27,17 @@ const TagSettings = ({ label }) => {
     return { tags_enabled: value };
   };
 
+  const formatBeforeSave = (data) => {
+    return data.tags_enabled.toString();
+  }
+
   return (
     <ConfigManagerConnected
       getInitialValues={getInitialValues}
       label={label}
-      moduleName="TAGS"
+      scope={TAGS_SCOPE}
       configName="tags_enabled"
+      onBeforeSave={formatBeforeSave}
     >
       <Row>
         <Col xs={12}>

@@ -1,5 +1,9 @@
 # Change history for ui-tags
 
+## [10.0.0] IN PROGRESS
+
+* *BREAKING* Migrate tags from mod-configuration to mod-settings. Refs UITAG-96.
+
 ## [9.0.0](https://github.com/folio-org/ui-tags/tree/v9.0.0) (2025-03-14)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v8.2.1...v9.0.0)
 * *BREAKING* Migrate stripes dependencies to their Sunflower versions. Refs UITAG-86.

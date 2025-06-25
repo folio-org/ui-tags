@@ -1,0 +1,1 @@
+export const TAGS_SCOPE = 'ui-tags.tags.manage';

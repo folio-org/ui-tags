@@ -1,6 +1,6 @@
 {
   "name": "@folio/tags",
-  "version": "9.0.0",
+  "version": "10.0.0",
   "description": "Tags manager",
   "repository": "folio-org/ui-tags",
   "publishConfig": {
@@ -44,7 +44,9 @@
         "displayName": "Settings (Tags): Can view tags settings",
         "subPermissions": [
           "settings.tags.enabled",
-          "configuration.entries.collection.get"
+          "mod-settings.entries.collection.get",
+          "mod-settings.entries.item.get",
+          "mod-settings.global.read.ui-tags.tags.manage"
         ],
         "visible": true
       },
@@ -53,8 +55,9 @@
         "displayName": "Settings (Tags): Can enable or disable tags for all apps",
         "subPermissions": [
           "ui-tags.settings.view",
-          "configuration.entries.item.put",
-          "configuration.entries.item.post"
+          "mod-settings.entries.item.post",
+          "mod-settings.entries.item.put",
+          "mod-settings.global.write.ui-tags.tags.manage"
         ],
         "visible": true
       },
@@ -106,6 +109,16 @@
           "tags.item.get",
           "tags.item.delete"
         ],
+        "visible": false
+      },
+      {
+        "permissionName": "mod-settings.global.read.ui-tags.tags.manage",
+        "displayName": "Settings (Tags): Read the tag settings",
+        "visible": false
+      },
+      {
+        "permissionName": "mod-settings.global.write.ui-tags.tags.manage",
+        "displayName": "Settings (Tags): Write the tag settings",
         "visible": false
       }
     ]
