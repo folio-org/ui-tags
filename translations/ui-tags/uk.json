@@ -5,7 +5,7 @@
     "settings.general.label": "Загальне",
     "settings.enableTags": "Увімкнути теги",
     "permission.all": "Теги: Всі дозволи",
-    "permission.view": "Tags on records: View only",
+    "permission.view": "Теги на записах: Тільки перегляд",
     "permission.create": "Теги: Створення тегів",
     "permission.edit": "Теги: Редагування тегів",
     "permission.delete": "Теги: Видалення тегів",
