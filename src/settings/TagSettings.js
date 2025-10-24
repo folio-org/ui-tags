@@ -1,4 +1,7 @@
-import { useMemo } from 'react';
+import {
+  useMemo,
+  useRef,
+} from 'react';
 import PropTypes from 'prop-types';
 import { useIntl } from 'react-intl';
 import { Field } from 'redux-form';
@@ -9,7 +12,15 @@ import {
   Row,
 } from '@folio/stripes/components';
 import { ConfigManager } from '@folio/stripes/smart-components';
-import { useStripes } from '@folio/stripes/core';
+import {
+  useOkapiKy,
+  useStripes,
+} from '@folio/stripes/core';
+
+import {
+  TAGS_SCOPE,
+  TAGS_KEY,
+} from '../constants';
 
 const propTypes = {
   label: PropTypes.string,
@@ -18,19 +29,46 @@ const propTypes = {
 const TagSettings = ({ label }) => {
   const stripes = useStripes();
   const intl = useIntl();
+  const ky = useOkapiKy();
   const ConfigManagerConnected = useMemo(() => stripes.connect(ConfigManager), [stripes]);
+  const action = useRef('post');
 
   const getInitialValues = (settings) => {
-    const value = !settings.length || settings[0].value === 'true';
+    action.current = settings[0]?.id ? 'put' : 'post';
+
+    const value = !settings.length || settings[0].value;
     return { tags_enabled: value };
+  };
+
+  // Save the flag in configurations API as well for backward compatibility.
+  // This will be removed in future releases once all UI modules have migrated to settings API (FOLIO-4343).
+  const handleAfterSave = async (setting) => {
+    const body = {
+      id: setting.id,
+      module: 'TAGS',
+      configName: TAGS_KEY,
+      value: setting.value,
+      enabled: true,
+    };
+
+    try {
+      const endpoint = action.current === 'put'
+        ? `configurations/entries/${setting.id}`
+        : 'configurations/entries';
+
+      await ky[action.current](endpoint, { json: body });
+    } catch (error) {
+      console.error('Error saving configuration', error); // eslint-disable-line no-console
+    }
   };
 
   return (
     <ConfigManagerConnected
       getInitialValues={getInitialValues}
       label={label}
-      moduleName="TAGS"
-      configName="tags_enabled"
+      scope={TAGS_SCOPE}
+      configName={TAGS_KEY}
+      onAfterSave={handleAfterSave}
     >
       <Row>
         <Col xs={12}>
