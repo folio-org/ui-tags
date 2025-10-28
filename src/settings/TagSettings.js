@@ -22,6 +22,13 @@ import {
   TAGS_KEY,
 } from '../constants';
 
+const ACTION = {
+  POST: 'post',
+  PUT: 'put',
+};
+
+const MODULE = 'TAGS';
+
 const propTypes = {
   label: PropTypes.string,
 };
@@ -31,10 +38,10 @@ const TagSettings = ({ label }) => {
   const intl = useIntl();
   const ky = useOkapiKy();
   const ConfigManagerConnected = useMemo(() => stripes.connect(ConfigManager), [stripes]);
-  const action = useRef('post');
+  const action = useRef(ACTION.POST);
 
   const getInitialValues = (settings) => {
-    action.current = settings[0]?.id ? 'put' : 'post';
+    action.current = settings[0]?.id ? ACTION.PUT : ACTION.POST;
 
     const value = !settings.length || settings[0].value;
     return { tags_enabled: value };
@@ -45,14 +52,14 @@ const TagSettings = ({ label }) => {
   const handleAfterSave = async (setting) => {
     const body = {
       id: setting.id,
-      module: 'TAGS',
+      module: MODULE,
       configName: TAGS_KEY,
       value: setting.value,
       enabled: true,
     };
 
     try {
-      const endpoint = action.current === 'put'
+      const endpoint = action.current === ACTION.PUT
         ? `configurations/entries/${setting.id}`
         : 'configurations/entries';
 
