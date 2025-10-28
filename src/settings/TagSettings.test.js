@@ -1,4 +1,5 @@
 import { act } from 'react';
+import { QueryClient, QueryClientProvider } from 'react-query';
 
 import {
   useOkapiKy,
@@ -56,13 +57,17 @@ const mockStripes = buildStripes({
   },
 });
 
+const queryClient = new QueryClient();
+
 const renderTagSettings = (props = {}) => render(
   <Provider store={store}>
     <Router history={history}>
-      <TagSettings
-        label="Tags label"
-        {...props}
-      />
+      <QueryClientProvider client={queryClient}>
+        <TagSettings
+          label="Tags label"
+          {...props}
+        />
+      </QueryClientProvider>
     </Router>
   </Provider>
 );
