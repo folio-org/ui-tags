@@ -9,5 +9,6 @@
     "permission.create": "Tagi: tworzenie tagów",
     "permission.edit": "Tagi: edytowanie tagów",
     "permission.delete": "Tagi: usuwanie tagów",
-    "permission.settings": "Ustawienia (Tagi): można włączać lub wyłączać tagi dla wszystkich aplikacji"
+    "permission.settings": "Ustawienia (Tagi): można włączać lub wyłączać tagi dla wszystkich aplikacji",
+    "settings.saveError": "An error occurred while saving the tags configuration."
 }
