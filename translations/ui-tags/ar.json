@@ -9,5 +9,6 @@
     "permission.create": "الوسوم: إنشاء وسوم",
     "permission.edit": "الوسوم: حرّر الوسوم",
     "permission.delete": "الوسوم: حذف الوسوم",
-    "permission.settings": "الإعدادات (الوسوم): إمكانية تفعيل أو تعطيل الوسوم لكل التطبيقات"
+    "permission.settings": "الإعدادات (الوسوم): إمكانية تفعيل أو تعطيل الوسوم لكل التطبيقات",
+    "settings.saveError": "An error occurred while saving the tags configuration."
 }

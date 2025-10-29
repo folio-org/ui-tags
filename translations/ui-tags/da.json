@@ -9,5 +9,6 @@
     "permission.create": "Tags: Create tags",
     "permission.edit": "Mærker: Redigere mærker",
     "permission.delete": "Tags: Delete tags",
-    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps"
+    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps",
+    "settings.saveError": "An error occurred while saving the tags configuration."
 }
