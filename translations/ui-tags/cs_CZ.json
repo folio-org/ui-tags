@@ -10,5 +10,5 @@
     "permission.edit": "Štítky: Upravit štítky",
     "permission.delete": "Štítky: Smazat štítky",
     "permission.settings": "Nastavení (Štítky): Může povolit nebo zakázat štítky pro všechny aplikace",
-    "settings.saveError": "An error occurred while saving the tags configuration."
+    "settings.saveError": "Při ukládání konfigurace tagů došlo k chybě."
 }
