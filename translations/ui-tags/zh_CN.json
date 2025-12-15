@@ -10,5 +10,5 @@
     "permission.edit": "标签 : 编辑标签",
     "permission.delete": "标签 : 删除标签",
     "permission.settings": "设置 : 标签 )  : 可以为所有应用启用或禁用标签",
-    "settings.saveError": "An error occurred while saving the tags configuration."
+    "settings.saveError": "保存标签配置时发生错误。"
 }
