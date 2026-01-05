@@ -1,14 +1,14 @@
 {
-    "meta.title": "Tags",
-    "settings.index.paneTitle": "Tags",
-    "settings.tags.label": "Tags",
-    "settings.general.label": "General",
-    "settings.enableTags": "Enable tags",
-    "permission.all": "Tags: All permissions",
-    "permission.view": "Tags on records: View only",
-    "permission.create": "Tags: Create tags",
-    "permission.edit": "Tags: Edit tags",
-    "permission.delete": "Tags: Delete tags",
-    "permission.settings": "Settings (Tags): Can enable or disable tags for all apps",
-    "settings.saveError": "An error occurred while saving the tags configuration."
+    "meta.title": "Etiketler",
+    "settings.index.paneTitle": "Etiketler",
+    "settings.tags.label": "Etiketler",
+    "settings.general.label": "Genel",
+    "settings.enableTags": "Etiketleri etkinleştir",
+    "permission.all": "Etiketler: Tüm izinler",
+    "permission.view": "Kayıtlar üzerindeki etiketler: Sadece görüntüle",
+    "permission.create": "Etiketler: Oluştur Etiketler",
+    "permission.edit": "Etiketler: Etiketleri düzenle",
+    "permission.delete": "Etiketler: Etiketleri sil",
+    "permission.settings": "Ayarlar (Etiketler): Tüm uygulamalar için etiketleri etkinleştirebilir veya devre dışı bırakabilir",
+    "settings.saveError": "Etiket yapılandırmasını kaydetmeye çalışırken bir hata oluştu."
 }
