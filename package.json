@@ -29,13 +29,17 @@
     "permissionSets": [
       {
         "permissionName": "module.tags.enabled",
-        "displayName": "UI: Tags module is enabled"
+        "displayName": "UI: Tags module is enabled",
+        "subPermissions": [
+          "stripes-core.settings.read"
+        ]
       },
       {
         "permissionName": "settings.tags.enabled",
         "displayName": "Settings (Tags): display list of settings pages",
         "subPermissions": [
-          "settings.enabled"
+          "settings.enabled",
+          "stripes-core.settings.read"
         ],
         "visible": false
       },
