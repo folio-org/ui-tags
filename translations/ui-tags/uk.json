@@ -10,5 +10,5 @@
     "permission.edit": "Теги: Редагування тегів",
     "permission.delete": "Теги: Видалення тегів",
     "permission.settings": "Налаштування (Теги): Вмикання та вимикання тегів для всіх додатків",
-    "settings.saveError": "An error occurred while saving the tags configuration."
+    "settings.saveError": "Під час збереження конфігурації тегів сталася помилка."
 }
