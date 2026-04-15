@@ -1,6 +1,6 @@
 {
   "name": "@folio/tags",
-  "version": "9.0.0",
+  "version": "10.0.0",
   "description": "Tags manager",
   "repository": "folio-org/ui-tags",
   "publishConfig": {
@@ -140,13 +140,12 @@
   "devDependencies": {
     "@folio/eslint-config-stripes": "^8.0.0",
     "@folio/jest-config-stripes": "^3.0.0",
-    "@folio/stripes": "^10.0.0",
+    "@folio/stripes": "^10.1.0",
     "@folio/stripes-cli": "^4.0.0",
-    "@folio/stripes-components": "^13.0.0",
-    "@folio/stripes-core": "^11.0.0",
-    "@folio/stripes-form": "^10.0.0",
-    "@folio/stripes-smart-components": "^10.0.0",
-    "eslint": "^7.32.0",
+    "@folio/stripes-components": "^13.1.0",
+    "@folio/stripes-core": "^11.1.0",
+    "@folio/stripes-form": "^10.1.0",
+    "@folio/stripes-smart-components": "^10.1.0",
     "history": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -162,7 +161,7 @@
     "redux-form": "^8.3.7"
   },
   "peerDependencies": {
-    "@folio/stripes": "^10.0.0",
+    "@folio/stripes": "^10.1.0",
     "react": "^18.2.0",
     "react-intl": "^7.1.5",
     "react-redux": "^8.0.5"

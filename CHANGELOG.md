@@ -1,8 +1,9 @@
 # Change history for ui-tags
 
-## IN PROGRESS
+## [10.0.0](https://github.com/folio-org/ui-tags/tree/v10.0.0) (2026-04-15)
 * Save the `tags_enabled` flag in both mod-settings and mod-configuration to allow apps to also migrate to mod-settings and not break those that haven't migrated yet. Refs UITAG-96.
 * Add `stripes-core.settings.read` permission to app and settings permissions. Refs UITAG-98.
+* *BREAKING* update "@folio/stripes" in peerDependencies. Refs UITAG-96.
 
 ## [9.0.0](https://github.com/folio-org/ui-tags/tree/v9.0.0) (2025-03-14)
 [Full Changelog](https://github.com/folio-org/ui-tags/compare/v8.2.1...v9.0.0)
