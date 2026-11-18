@@ -129,16 +129,16 @@
   },
   "scripts": {
     "start": "yarn stripes serve",
-    "lint": "eslint .",
-    "test": "jest --coverage --verbose",
+    "lint": "stripes-lint ./src",
+    "test": "stripes-jest",
     "build-mod-descriptor": "stripes mod descriptor --full --strict | jq '.[]' > module-descriptor.json ",
     "formatjs-compile": "stripes translate compile"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^9.0.0",
-    "@folio/jest-config-stripes": "^4.0.0",
+    "@folio/eslint-config-stripes": "^10.0.0",
+    "@folio/jest-config-stripes": "^5.0.0",
     "@folio/stripes": "^10.1.0",
-    "@folio/stripes-cli": "^5.0.0",
+    "@folio/stripes-cli": "^6.0.0",
     "@folio/stripes-components": "^13.1.0",
     "@folio/stripes-core": "^11.1.0",
     "@folio/stripes-form": "^10.1.0",
@@ -162,8 +162,5 @@
     "react": "^18.2.0",
     "react-intl": "^7.1.5",
     "react-redux": "^8.0.5"
-  },
-  "resolutions": {
-    "@folio/stripes-testing": "^5.0.0"
   }
 }

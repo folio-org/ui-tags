@@ -85,7 +85,7 @@ describe('Tag Settings', () => {
     useOkapiKy.mockReturnValue(mockKy);
   });
 
-  it('should render ConfigManager component ', () => {
+  it('should render ConfigManager component', () => {
     useStripes.mockReturnValue(buildMockStripes());
 
     const { getByText } = renderTagSettings();
