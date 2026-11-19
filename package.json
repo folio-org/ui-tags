@@ -1,6 +1,6 @@
 {
   "name": "@folio/tags",
-  "version": "10.0.0",
+  "version": "11.0.0",
   "description": "Tags manager",
   "repository": "folio-org/ui-tags",
   "publishConfig": {
@@ -50,8 +50,7 @@
           "settings.tags.enabled",
           "mod-settings.entries.collection.get",
           "mod-settings.entries.item.get",
-          "mod-settings.global.read.ui-tags.tags.manage",
-          "configuration.entries.collection.get"
+          "mod-settings.global.read.ui-tags.tags.manage"
         ],
         "visible": true
       },
@@ -62,9 +61,7 @@
           "ui-tags.settings.view",
           "mod-settings.entries.item.post",
           "mod-settings.entries.item.put",
-          "mod-settings.global.write.ui-tags.tags.manage",
-          "configuration.entries.item.put",
-          "configuration.entries.item.post"
+          "mod-settings.global.write.ui-tags.tags.manage"
         ],
         "visible": true
       },
@@ -132,16 +129,16 @@
   },
   "scripts": {
     "start": "yarn stripes serve",
-    "lint": "eslint .",
-    "test": "jest --coverage --verbose",
+    "lint": "stripes-lint ./src",
+    "test": "stripes-jest",
     "build-mod-descriptor": "stripes mod descriptor --full --strict | jq '.[]' > module-descriptor.json ",
     "formatjs-compile": "stripes translate compile"
   },
   "devDependencies": {
-    "@folio/eslint-config-stripes": "^8.0.0",
-    "@folio/jest-config-stripes": "^3.0.0",
+    "@folio/eslint-config-stripes": "^10.0.0",
+    "@folio/jest-config-stripes": "^5.0.0",
     "@folio/stripes": "^10.1.0",
-    "@folio/stripes-cli": "^4.0.0",
+    "@folio/stripes-cli": "^6.0.0",
     "@folio/stripes-components": "^13.1.0",
     "@folio/stripes-core": "^11.1.0",
     "@folio/stripes-form": "^10.1.0",

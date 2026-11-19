@@ -1,5 +1,8 @@
 # Change history for ui-tags
 
+## 11.0.0 (IN PROGRESS)
+* *BREAKING* Remove the legacy mod-configuration (Configurations API) backward-compatibility write; the `tags_enabled` flag is now saved only to mod-settings. Remove the `configuration.entries.*` permissions and the unused `useConfigurationSave` hook. Update `@folio/jest-config-stripes` to ^5, `@folio/eslint-config-stripes` to ^10, `@folio/stripes-cli` to ^6. Refs UITAG-100.
+
 ## [10.0.0](https://github.com/folio-org/ui-tags/tree/v10.0.0) (2026-04-15)
 * Save the `tags_enabled` flag in both mod-settings and mod-configuration to allow apps to also migrate to mod-settings and not break those that haven't migrated yet. Refs UITAG-96.
 * Add `stripes-core.settings.read` permission to app and settings permissions. Refs UITAG-98.
