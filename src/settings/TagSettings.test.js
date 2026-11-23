@@ -24,6 +24,7 @@ const store = createStore(combineReducers({ form: formReducer }));
 const history = createMemoryHistory();
 
 const mockKy = {
+  get: jest.fn(),
   post: jest.fn().mockReturnValue({
     json: jest.fn().mockResolvedValue({}),
   }),
@@ -31,6 +32,10 @@ const mockKy = {
     json: jest.fn().mockResolvedValue({}),
   }),
 };
+
+const mockGetConfigs = (configs = []) => mockKy.get.mockReturnValue({
+  json: jest.fn().mockResolvedValue({ configs, totalRecords: configs.length }),
+});
 
 const mockStripes = buildStripes({
   connect: (Component) => (props) => {
@@ -75,6 +80,7 @@ const renderTagSettings = (props = {}) => render(
 describe('Tag Settings', () => {
   beforeEach(() => {
     jest.clearAllMocks();
+    mockGetConfigs();
     useOkapiKy.mockReturnValue(mockKy);
     useStripes.mockReturnValue(mockStripes);
   });
@@ -86,7 +92,7 @@ describe('Tag Settings', () => {
   });
 
   describe('when changing the flag and saving', () => {
-    it('should save to both the configurations API and settings API', async () => {
+    it('should POST to the configurations API when there is no entry there yet', async () => {
       const { getByText, getByRole } = renderTagSettings();
 
       expect(getByRole('checkbox', { name: 'ui-tags.settings.enableTags' })).toBeChecked();
@@ -97,19 +103,32 @@ describe('Tag Settings', () => {
       expect(getByText('stripes-core.button.save')).toBeEnabled();
       await act(async () => userEvent.click(getByText('stripes-core.button.save')));
 
+      expect(mockKy.get).toHaveBeenCalledWith('configurations/entries', {
+        searchParams: { query: '(module==TAGS and configName==tags_enabled)' },
+      });
       expect(mockKy.post).toHaveBeenCalledWith('configurations/entries', {
         json: {
           configName: 'tags_enabled',
           enabled: true,
-          id: expect.any(String),
           module: 'TAGS',
-          value: false,
+          value: 'false',
         },
       });
+      expect(mockKy.put).not.toHaveBeenCalled();
     });
 
-    it('should use PUT when updating existing setting', async () => {
+    it('should PUT to the configurations API using the id of its own entry', async () => {
       const existingSettingId = 'existing-setting-id';
+      const existingConfigId = 'existing-config-id';
+
+      mockGetConfigs([{
+        id: existingConfigId,
+        module: 'TAGS',
+        configName: 'tags_enabled',
+        enabled: true,
+        value: 'true',
+        metadata: { createdDate: '2026-01-01T00:00:00.000+00:00' },
+      }]);
 
       const mockStripesWithExistingSetting = buildStripes({
         connect: (Component) => (props) => {
@@ -155,15 +174,16 @@ describe('Tag Settings', () => {
       expect(getByText('stripes-core.button.save')).toBeEnabled();
       await act(async () => userEvent.click(getByText('stripes-core.button.save')));
 
-      expect(mockKy.put).toHaveBeenCalledWith(`configurations/entries/${existingSettingId}`, {
+      expect(mockKy.put).toHaveBeenCalledWith(`configurations/entries/${existingConfigId}`, {
         json: {
+          id: existingConfigId,
           configName: 'tags_enabled',
           enabled: true,
-          id: expect.any(String),
           module: 'TAGS',
-          value: false,
+          value: 'false',
         },
       });
+      expect(mockKy.post).not.toHaveBeenCalled();
     });
   });
 });
