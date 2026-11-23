@@ -1,6 +1,6 @@
 # Change history for ui-tags
 
-## 10.0.1 (IN PROGRESS)
+## [10.0.1](https://github.com/folio-org/ui-tags/tree/v10.0.1) (2026-11-23)
 * Fix the error toast shown when saving the "Enable tags" setting if there is no matching entry in mod-configuration. The entry is now looked up right before the backward-compatibility write, and its own id decides between `PUT` and `POST`. The value is written as a string. Fixes UITAG-100.
 
 ## [10.0.0](https://github.com/folio-org/ui-tags/tree/v10.0.0) (2026-04-15)
