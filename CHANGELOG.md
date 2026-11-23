@@ -1,5 +1,8 @@
 # Change history for ui-tags
 
+## 10.0.1 (IN PROGRESS)
+* Fix the error toast shown when saving the "Enable tags" setting if there is no matching entry in mod-configuration. The entry is now looked up right before the backward-compatibility write, and its own id decides between `PUT` and `POST`. The value is written as a string. Fixes UITAG-100.
+
 ## [10.0.0](https://github.com/folio-org/ui-tags/tree/v10.0.0) (2026-04-15)
 * Save the `tags_enabled` flag in both mod-settings and mod-configuration to allow apps to also migrate to mod-settings and not break those that haven't migrated yet. Refs UITAG-96.
 * Add `stripes-core.settings.read` permission to app and settings permissions. Refs UITAG-98.

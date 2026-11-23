@@ -25,11 +25,9 @@ const TagSettings = ({ label }) => {
   const stripes = useStripes();
   const intl = useIntl();
   const ConfigManagerConnected = useMemo(() => stripes.connect(ConfigManager), [stripes]);
-  const { saveConfiguration, setAction } = useConfigurationSave();
+  const { saveConfiguration } = useConfigurationSave();
 
   const getInitialValues = (settings) => {
-    setAction(settings[0]?.id);
-
     const value = !settings.length || settings[0].value;
     return { tags_enabled: value };
   };
