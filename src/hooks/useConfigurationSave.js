@@ -30,7 +30,9 @@ export const useConfigurationSave = () => {
       const { configs } = await ky.get(CONFIGURATIONS_PATH, {
         searchParams: { query: `(module==${MODULE} and configName==${TAGS_KEY})` },
       }).json();
-      const { metadata, ...existing } = configs?.[0] || {};
+      const existing = { ...configs?.[0] };
+
+      delete existing.metadata;
 
       // mod-configuration stores values as strings
       const body = {
